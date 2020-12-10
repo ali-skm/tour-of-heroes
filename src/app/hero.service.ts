@@ -12,6 +12,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class HeroService {
 	
 	
+	//merge into Main on Friday
+	
 	private heroesUrl = 'api/heroes';  // URL to web api
 
   constructor( private http: HttpClient, public messageService: MessageService) {
